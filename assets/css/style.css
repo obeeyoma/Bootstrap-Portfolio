@@ -1,0 +1,17 @@
+/* Root variables */
+
+:root {
+    /* Define a root variables for color palette */
+    --primary-color: #850E35;
+    --secondary-color: #FFF5E4;
+    --accent1-color: #EE6983;
+    --accent2-color: #FFC4C4;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+    background-color: var(--secondary-color);
+}

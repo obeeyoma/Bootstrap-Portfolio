@@ -7,7 +7,7 @@ Bootstrap Portfolio is developed using the Bootstrap CSS framework in conjuction
 
 
 ## Screenshot
-![Bootstrap Portfolio](assets/images/screenshot-of-bootstrap-portfolio.png)
+![Bootstrap Portfolio](assets/images/screenshot-of-bootstrap-portfolio.PNG)
 
 ## Link to website
 [Bootstrap Portfolio](https://obeeyoma.github.io/Bootstrap-Portfolio/)

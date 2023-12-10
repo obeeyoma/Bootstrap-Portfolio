@@ -5,9 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap Portfolio</title>
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -53,131 +56,134 @@
                 <div class="col-md-6">
                     <h1 class="display-5 fw-bold">Hi, I'm Obioma</h1>
                     <p class="col fs-4">A Front-End Web Developer based in Surrey, UK.</p>
-                    <!-- <button class="btn btn-dark" type="button">Let's chat</button> -->
                     <a href="#work" class="btn btn-dark">My projects</a>
                 </div>
                 <figure class="figure col-md-6">
-                    <img class="image-turn" src="./assets/images/obioma-profile-photo.PNG" alt="avatar of Obioma">
+                    <img class="image-turn mt-3" src="./assets/images/obioma-profile-photo.PNG" alt="avatar of Obioma">
                 </figure>
             </div>
         </div>
     </div>
 
     <!-- Work section -->
-    <section id="work" class="container">
-        <div class="row row-height">
-            <div class="page-heading col-md-3">
+    <section class="container">
+        <div class="row">
+            <div class="col-md-3">
                 <h2>Work</h2>
             </div>
 
             <div class="portfolio-samples col-md-9">
+                <div class="container">
+                    <div class="row">
+                        <!-- portfolio 1 -->
+                        <article class="card p-0 mb-3">
+                            <figure>
+                                <a href="https://obeeyoma.github.io/horiseon-code-refactor-challenge/"><img
+                                        src="./assets/images/02-portfolio-1.png" class="card-img-top"
+                                        alt="people at an office meeting"></a>
+                            </figure>
 
-                <!-- portfolio 1 -->
-                <article class="card">
-                    <figure>
-                        <a href="https://obeeyoma.github.io/horiseon-code-refactor-challenge/"><img
-                                src="./assets/images/02-portfolio-1.png" class="card-img-top"
-                                alt="people at an office meeting"></a>
-                    </figure>
-
-                    <div class="card-body">
-                        <h5 class="card-title">Horiseon Project</h5>
-                        <p class="card-text">HTML CSS</p>
-                        <a href="https://obeeyoma.github.io/horiseon-code-refactor-challenge/" class="btn btn-dark">View
-                            project</a>
+                            <div class="card-body">
+                                <h5 class="card-title">Horiseon Project</h5>
+                                <p class="card-text">HTML CSS</p>
+                                <a href="https://obeeyoma.github.io/horiseon-code-refactor-challenge/"
+                                    class="btn btn-dark">View
+                                    project</a>
+                            </div>
+                        </article>
                     </div>
-                </article>
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <!-- portfolio 2 -->
+                        <article class="card p-0 mb-3 col-sm-6">
+                            <figure>
+                                <a href="https://obeeyoma.github.io/obioma-portfolio/"><img
+                                        src="./assets/images/02-portfolio-5.jpg" class="card-img-top"
+                                        alt="red background with white polka-like dots"></a>
+                            </figure>
+
+                            <div class="card-body">
+                                <h5 class="card-title">Obioma's Portfolio</h5>
+                                <p class="card-text">HTML CSS</p>
+                                <a href="https://obeeyoma.github.io/obioma-portfolio/" class="btn btn-dark">View
+                                    project</a>
+                            </div>
+                        </article>
 
 
-                <div class="row">
-                    <!-- portfolio 2 -->
-                    <article class="card col-md-6">
-                        <figure>
-                            <a href="https://obeeyoma.github.io/obioma-portfolio/"><img
-                                    src="./assets/images/screenshot-of-portfolio-page.png" class="card-img-top"
-                                    alt="screenshotof a portfolio webpage"></a>
-                        </figure>
-
-                        <div class="card-body">
-                            <h5 class="card-title">Obioma's Portfolio</h5>
-                            <p class="card-text">HTML CSS</p>
-                            <a href="https://obeeyoma.github.io/obioma-portfolio/" class="btn btn-dark">View project</a>
-                        </div>
-                    </article>
-
-
-                    <!-- portfolio 3 -->
-                    <article class="card col-md-6">
-                        <figure>
-                            <a href="https://inspired-projects.000webhostapp.com/index.html"></a><img
-                                src="./assets/images/02-portfolio-4.jpg" class="card-img-top"
-                                alt="silhouette of person looking at the sea">
-                        </figure>
-                        <div class="card-body">
-                            <h5 class="card-title">Fruit Chart</h5>
-                            <p class="card-text">HTML CSS JavaScript</p>
-                            <a href="https://inspired-projects.000webhostapp.com/index.html" class="btn btn-dark">View
-                                project</a>
-                        </div>
-                    </article>
+                        <!-- portfolio 3 -->
+                        <article class="card p-0 mb-3 col-sm-6">
+                            <figure>
+                                <a href="https://inspired-projects.000webhostapp.com/index.html"></a><img
+                                    src="./assets/images/02-portfolio-4.jpg" class="card-img-top"
+                                    alt="silhouette of person looking at the sea">
+                            </figure>
+                            <div class="card-body">
+                                <h5 class="card-title">Fruit Chart</h5>
+                                <p class="card-text">HTML CSS JavaScript</p>
+                                <a href="https://inspired-projects.000webhostapp.com/index.html"
+                                    class="btn btn-dark">View
+                                    project</a>
+                            </div>
+                        </article>
+                    </div>
                 </div>
 
 
-                <div class="row">
+                <div class="container">
+                    <div class="row">
 
-                    <!-- portfolio 4 -->
-                    <article class="card col-md-6">
-                        <figure>
-                            <a href="https://inspired-projects.000webhostapp.com/index.html"><img
-                                    src="./assets/images/02-portfolio-4.jpg" class="card-img-top"
-                                    alt="silhouette of person looking at the sea"></a>
-                        </figure>
+                        <!-- portfolio 4 -->
+                        <article class="card p-0 mb-3 col-sm-6">
+                            <figure>
+                                <a href="https://inspired-projects.000webhostapp.com/index.html"><img
+                                        src="./assets/images/02-portfolio-4.jpg" class="card-img-top"
+                                        alt="silhouette of person looking at the sea"></a>
+                            </figure>
 
-                        <div class="card-body">
-                            <h5 class="card-title">Project 4</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the
-                                card's
-                                content.</p>
-                            <a href="https://inspired-projects.000webhostapp.com/index.html" class="btn btn-dark">View
-                                project</a>
-                        </div>
-                    </article>
+                            <div class="card-body">
+                                <h5 class="card-title">Project 4</h5>
+                                <p class="card-text">Coming Soon</p>
+                                <a href="https://inspired-projects.000webhostapp.com/index.html"
+                                    class="btn btn-dark">View
+                                    project</a>
+                            </div>
+                        </article>
 
 
-                    <!-- portfolio 5 -->
-                    <article class="card col-md-6">
-                        <figure>
-                            <a href="https://inspired-projects.000webhostapp.com/index.html"><img
-                                    src="./assets/images/02-portfolio-5.jpg" class="card-img-top"
-                                    alt="red background with white polka-like dots"></a>
-                        </figure>
+                        <!-- portfolio 5 -->
+                        <article class="card p-0 mb-3 col-sm-6">
+                            <figure>
+                                <a href="https://inspired-projects.000webhostapp.com/index.html"><img
+                                        src="./assets/images/02-portfolio-5.jpg" class="card-img-top"
+                                        alt="red background with white polka-like dots"></a>
+                            </figure>
 
-                        <div class="card-body">
-                            <h5 class="card-title">Project 5</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the
-                                card's
-                                content.</p>
-                            <a href="https://inspired-projects.000webhostapp.com/index.html" class="btn btn-dark">View
-                                project</a>
-                        </div>
-                    </article>
+                            <div class="card-body">
+                                <h5 class="card-title">Project 5</h5>
+                                <p class="card-text">Coming Soon</p>
+                                <a href="https://inspired-projects.000webhostapp.com/index.html"
+                                    class="btn btn-dark">View
+                                    project</a>
+                            </div>
+                        </article>
+                    </div>
                 </div>
             </div>
         </div>
 
+
     </section>
 
     <!-- Skills section -->
-    <section id="skills" class="container mt-3 mb-3">
+    <section class="container">
         <div class="row row-height">
-            <div class="page-heading col-md-3">
+            <div class="col-md-3">
                 <h2>Skills</h2>
             </div>
-            <div class=" skillset col-md-9">
+            <div class="col-md-9 mb-3">
                 <ul class="list-group">
                     <li class="list-group-item">HTML</li>
                     <li class="list-group-item">CSS</li>
@@ -195,27 +201,28 @@
     <section class="container">
         <div class="row info">
             <!-- about -->
-            <div id="about" class="col-md-6">
+            <div class=" col-md-6 mb-3">
                 <h2>About Me</h2>
                 <article>
-                    <p>I am a Front-End Web Developer based in Surrey, UK.I am passionate about creating
+                    <p>I am a Front-End Web Developer based in Surrey, UK. I am passionate about creating
                         interactive applications and experiences to
                         help clients achieve their business goals.</p>
                 </article>
             </div>
 
             <!-- contact -->
-            <div id="contact" class="col-md-6">
+            <div class="col-md-3">
                 <h2>Contact Me</h2>
                 <article>
                     <ul class="navbar-nav">
                         <li><a href="tel:123-456-7890" class="fa fa-phone"> +44 782 *** ***</a></li>
                         <li><a href="mailto:obioma@example.com" class="fa fa-envelope"> obeeoma@example.com</a></li>
-                        <li><a href="https://github.com/obeeyoma" class="fa fa-github"> GitHub</a></li>
+                        <li><a href="https://github.com/obeeyoma" class="fab fa-github"> GitHub</a></li>
                     </ul>
                     </p>
                 </article>
             </div>
+
         </div>
 
     </section>

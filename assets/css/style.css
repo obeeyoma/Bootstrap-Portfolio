@@ -8,6 +8,7 @@
     --accent2-color: #FFC4C4;
 }
 
+
 body {
     margin: 0;
     padding: 0;
@@ -16,6 +17,7 @@ body {
     background-color: var(--secondary-color);
 }
 
+/* navigation styles */
 .navbar {
     background-color: var(--primary-color);
     width: 100%;
@@ -36,13 +38,7 @@ body {
 
 .nav-link:hover {
     color: var(--accent2-color);
-    border-bottom: 1px solid var(--accent1-color);
-    border-bottom-width: 0.5rem;
-}
-
-button.navbar-toggler {
-    color: var(--accent1-color);
-    border-color: #EE6983;
+    text-decoration: 4px underline var(--accent1-color);
 }
 
 span.navbar-toggler-icon {
@@ -50,22 +46,43 @@ span.navbar-toggler-icon {
     border-color: #EE6983;
 }
 
+.navbar-nav a {
+    text-decoration: none;
+}
+
+.navbar-nav a:hover {
+    display: inline-block;
+    text-decoration: 4px underline var(--accent1-color);
+}
+
 /* page styles */
 .page-section {
     width: 100%;
     margin-bottom: 0.8rem;
 }
+
+.portfolio-samples {
+    max-width: 100%;
+}
+
 /* card styles */
 
-.card-body{
+.card-body {
     border-color: var(--accent1-color);
 }
+
 /* image turn */
 .image-turn {
- padding-top: 1.2rem;
+    margin: 0 auto;
+    display: block;
     transform: scaleX(-1);
     max-width: 100%;
-    display: block;
+}
+
+/* button styles */
+button.navbar-toggler {
+    color: var(--accent1-color);
+    border-color: #EE6983;
 }
 
 .btn-dark {
@@ -78,24 +95,19 @@ span.navbar-toggler-icon {
     border-color: var(--accent1-color);
 }
 
+/* list style */
 .list-group-item {
     font-weight: 600;
 }
 
-.navbar-nav a {
-    text-decoration: none;
-}
-
-.navbar-nav a:hover {
-    border-bottom: 3px solid var(--accent1-color);
-}
-
+/* icons styles*/
 .fa-phone,
 .fa-envelope,
 .fa-github {
     color: black;
 }
 
+/* footer styles */
 footer {
     background-color: var(--primary-color);
     color: var(--accent2-color);

@@ -89,15 +89,20 @@ button.navbar-toggler {
     border-color: var(--accent1-color);
 }
 
+button.navbar-toggler:hover {
+    box-shadow: 0px 0px 8px var(--primary-color), 0 0 15px var(--accent1-color)
+}
+
 .btn-dark {
     background-color: var(--primary-color);
-    border-color: var(--primary-color);
+    border-color: none;
 }
 
 .btn-dark:hover {
     background-color: var(--accent1-color);
-    border-color: var(--accent1-color);
+    box-shadow: 0px 0px 8px var(--primary-color), 0 0 15px var(--accent1-color)
 }
+
 
 /* list styles */
 .list-group-item {

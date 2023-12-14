@@ -43,16 +43,16 @@ body {
 
 span.navbar-toggler-icon {
     color: var(--accent1-color);
-    border-color: #EE6983;
+    border-color: var(--accent1-color);
 }
 
-.navbar-nav a {
+#contact .navbar-nav a {
     text-decoration: none;
 }
 
-.navbar-nav a:hover {
+#contact .navbar-nav a:hover {
     display: inline-block;
-    text-decoration: 4px underline var(--accent1-color);
+    border-bottom: 4px solid var(--accent1-color);
 }
 
 /* page styles */
@@ -67,6 +67,10 @@ span.navbar-toggler-icon {
 
 .portfolio-samples {
     max-width: 100%;
+}
+
+h2 {
+    text-decoration: underline 2px solid var(--icon-color);
 }
 
 /* card styles */
@@ -124,9 +128,18 @@ footer {
 }
 
 /* Responsive styles */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
     .info {
         box-shadow: 1px solid var(--primary-color);
         border-radius: 2rem;
+    }
+
+    h2 {
+        text-decoration: none;
+    }
+
+    .portfolio-samples,
+    .list-group {
+        border-left: 2px solid var(--icon-color);
     }
 }

@@ -48,6 +48,7 @@ span.navbar-toggler-icon {
 
 #contact .navbar-nav a {
     text-decoration: none;
+    font-size: 1rem;
 }
 
 #contact .navbar-nav a:hover {
@@ -84,7 +85,7 @@ h2 {
     margin: 0 auto;
     display: block;
     transform: scaleX(-1);
-    max-width: 100%;
+    max-width: 80%;
 }
 
 /* button styles */
@@ -129,10 +130,6 @@ footer {
 
 /* Responsive styles */
 @media only screen and (min-width: 768px) {
-    .info {
-        box-shadow: 1px solid var(--primary-color);
-        border-radius: 2rem;
-    }
 
     h2 {
         text-decoration: none;
@@ -142,4 +139,5 @@ footer {
     .list-group {
         border-left: 2px solid var(--icon-color);
     }
+
 }
